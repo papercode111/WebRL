@@ -1,0 +1,17 @@
+import time
+from selenium import webdriver
+driver = webdriver.Chrome("/Users/wzz/Desktop/chromedriver")
+driver.get("file:///Users/wzz/Desktop/Research/scriptRepair/WebRL/website/etsy/old/web.archive.org/web/20191002005309/https:/www.etsy.com/index.html")
+el = driver.find_element_by_xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/ul[1]/li[7]/a[1]")
+el = driver.find_element_by_xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/ul[1]/li[2]/a[1]")
+el = driver.find_element_by_xpath("/html[1]/body[1]/div[3]/header[1]/div[4]/ul[1]/li[3]/a[1]")
+el = driver.find_element_by_xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/ul[1]/li[5]/a[1]")
+el = driver.find_element_by_xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/ul[1]/li[9]/a[1]")
+el = driver.find_element_by_xpath("/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/a[1]/span[1]")
+el = driver.find_element_by_xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/ul[1]/li[3]/a[1]")
+el = driver.find_element_by_xpath("/html[1]/body[1]/div[3]/header[1]/div[2]/div[1]/form[1]/div[1]/div[1]/button[1]")
+el = driver.find_element_by_xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/ul[1]/li[6]/a[1]")
+el = driver.find_element_by_xpath("/html[1]/body[1]/div[3]/header[1]/div[4]/ul[1]/li[4]/a[1]/span[1]/*[local-name() = "svg"][1]")
+el = driver.find_element_by_xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/ul[1]/li[1]/a[1]")
+el = driver.find_element_by_xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/ul[1]/li[4]/a[1]")
+el = driver.find_element_by_xpath("/html[1]/body[1]/div[3]/header[1]/div[2]/div[1]/form[1]/div[1]/div[1]/input[1]")
